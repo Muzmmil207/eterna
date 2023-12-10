@@ -109,3 +109,52 @@ header {
   margin: 0 8px;
   color: #000;
 }
+
+/* HERO */
+section.hero {
+  background-image: url(/assets/img/slide/slide-3.jpg);
+}
+
+.hero .hero-content {
+  background-color: #cbcbcb9f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 64px 0;
+}
+
+
+.hero .hero-content .content {
+  max-width: 800px;
+  width: 100%;
+  text-align: center;
+}
+
+.hero-content .content h1 {
+  font-size: 48px;
+}
+
+.hero-content .content h1 span {
+  color: var(--orang-color);
+}
+
+.hero-content .content p {
+  margin: 24px 0;
+  font-size: 21px;
+}
+
+.hero-content .content a {
+  margin-top: 30px;
+  color: white;
+  background-color: var(--orang-color);
+  border-radius: 30px;
+  padding: 12px 30px;
+  font-size: 16px;
+  transition: all 0.2s linear;
+}
+
+.hero-content .content a:hover {
+  color: var(--orang-color);
+  border: 2px solid var(--orang-color);
+  background-color: transparent;
+}
