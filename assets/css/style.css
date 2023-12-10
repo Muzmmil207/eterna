@@ -20,6 +20,11 @@ a:hover {
   color: var(--orang-color2);
 }
 
+img {
+  width: 100%;
+  height: 100%;
+}
+
 .container {
   margin: 0 auto;
   max-width: 1300px;
@@ -204,4 +209,45 @@ main {
 
 .featured-item p {
   font-size: 17px;
+}
+
+/* section.about {
+  height: 100px;
+} */
+
+section.about .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.left-about {
+  /* width: 50px; */
+}
+
+.right-about {
+  color: var(--gray-color);
+}
+
+.right-about>* {
+  margin: 24px 0;
+}
+
+.right-about h3 {
+  font-size: 1.75rem;
+  font-weight: 500;
+}
+
+.right-about q {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.right-about ul {
+  list-style-position: inside;
+  font-size: 21px;
+  padding: 0 16px;
+}
+
+.right-about p {
+  font-size: 21px;
 }
