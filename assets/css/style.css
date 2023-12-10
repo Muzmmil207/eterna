@@ -25,6 +25,34 @@ img {
   height: 100%;
 }
 
+.section-title {
+  color: var(--gray-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-title h2 {
+  text-align: center;
+  position: relative;
+  width: fit-content;
+}
+
+.section-title h2::after {
+  position: absolute;
+  content: '';
+  width: 80%;
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 4px;
+  background-color: var(--orang-color);
+}
+
+.section-title p {
+  margin-top: 32px;
+}
+
 .container {
   margin: 0 auto;
   max-width: 1300px;
@@ -323,4 +351,8 @@ section.services {
 .services-item .icon-box p {
   color: var(--gray-color);
   text-align: center;
+}
+
+section.clients {
+  margin: 102px 0;
 }
