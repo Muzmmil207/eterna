@@ -356,3 +356,156 @@ section.services {
 section.clients {
   margin: 102px 0;
 }
+
+footer {
+  background-color: #404040;
+}
+
+.newsletter {
+  padding: 48px 0;
+}
+
+.newsletter .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.newsletter .left-news {
+  color: white;
+}
+
+.newsletter .left-news h2 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.newsletter .left-news p {
+  margin-top: 16px;
+  font-size: 16px;
+}
+
+
+.newsletter .right-news form {
+  background-color: #fff;
+  padding: 3px;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  height: 40px;
+  border-radius: 30px;
+  gap: 16px;
+  overflow: hidden;
+}
+
+.newsletter .right-news form input {
+  width: 25vw;
+  border: none;
+  height: 100%;
+  font-size: 24px;
+}
+
+.newsletter .right-news form button {
+  background-color: var(--orang-color);
+  font-size: 21px;
+  color: white;
+  border-radius: 30px;
+  outline: none;
+  height: 100%;
+  border: none;
+  padding: 0 16px;
+  transition: all 0.1s linear;
+  cursor: pointer;
+}
+
+.newsletter .right-news form button:hover {
+  background-color: var(--orang-color2);
+}
+
+.sitemap {
+  background-color: #3b3b3b;
+  border-top: 1px solid #474747;
+  border-bottom: 1px solid #474747;
+  color: white;
+  padding: 48px 0;
+}
+
+.sitemap .row {
+  display: grid;
+  grid-template-columns: 300px 300px 1fr 1fr;
+  gap: 16px;
+}
+
+.sitemap .row h4,
+.sitemap .row h3 {
+  font-weight: 300;
+  margin-bottom: 24px;
+}
+
+.sitemap .row p {
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.footer-links ul {
+  margin-top: 24px;
+}
+
+.footer-links ul li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 14px 0;
+}
+
+.footer-links ul li i {
+  color: var(--orang-color);
+}
+
+.footer-links ul li a {
+  font-size: 16px;
+  color: white;
+  transition: all .3s ease;
+}
+
+.footer-links ul li a:hover {
+  color: var(--orang-color);
+}
+
+.footer-info .social-links {
+  display: flex;
+}
+
+.footer-info .social-links a {
+  color: #fff;
+  margin-left: 8px;
+  background-color: #404040;
+  font-size: 18px;
+  border-radius: 50%;
+  text-align: center;
+  padding: 8px;
+  display: flex;
+}
+
+.footer-info .social-links a:hover {
+  color: #cbcbcb;
+}
+
+.copy-right {
+  padding: 32px 0;
+  text-align: center;
+}
+
+.copy-right p {
+  color: white;
+  font-size: 16px;
+}
+
+.copy-right p:last-child {
+  margin-top: 16px;
+}
+
+.copy-right a {
+  color: var(--orang-color);
+}
